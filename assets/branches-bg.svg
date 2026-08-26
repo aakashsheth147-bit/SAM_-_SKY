@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160">
+  <defs>
+    <pattern id="chevrons" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="rotate(0)">
+      <rect width="80" height="80" fill="#0E1730"/>
+      <path d="M0 60 L20 20 L40 60" fill="none" stroke="#5C5A2E" stroke-width="7" stroke-linecap="square"/>
+      <path d="M40 60 L60 20 L80 60" fill="none" stroke="#5C5A2E" stroke-width="7" stroke-linecap="square"/>
+      <path d="M-20 20 L0 -20 L20 20" fill="none" stroke="#5C5A2E" stroke-width="7" stroke-linecap="square"/>
+      <path d="M60 20 L80 -20 L100 20" fill="none" stroke="#5C5A2E" stroke-width="7" stroke-linecap="square"/>
+      <path d="M0 60 L20 20 L40 60" fill="none" stroke="#7A2020" stroke-width="1.5" stroke-linecap="square" opacity="0.6" transform="translate(0,2)"/>
+    </pattern>
+  </defs>
+  <rect width="160" height="160" fill="url(#chevrons)"/>
+</svg>
